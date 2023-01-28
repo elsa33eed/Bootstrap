@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@200;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/rtl.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/animate.css" />
+    <link rel="stylesheet" href="./css/hover.css" />
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- start tool bar section -->
+    <section class="option-box">
+      <div class="color-option">
+        <h4>Color Option:</h4>
+        <ul class="list-unstyled">
+          <li
+            class="active"
+            data-color="#e41"
+            style="background-color: #e41"
+          ></li>
+          <li data-color="#9085da" style="background-color: #9085da"></li>
+          <li data-color="#fc6481" style="background-color: #fc6481"></li>
+          <li data-color="#d36ec6" style="background-color: #d36ec6"></li>
+          <li data-color="#3280fd" style="background-color: #3280fd"></li>
+        </ul>
+      </div>
+      <div class="div-icon">
+        <i class="fa-solid fa-gear fa-2x fa-spin icon"></i>
+      </div>
+    </section>
+    <!-- end tool bar section -->
+
+    <!-- Start Nav Bar -->
+    <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#our-navbar"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand hvr-pop" href="#"
+            >Bootstrapo <span>Inc.</span></a
+          >
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="our-navbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active">
+              <a href="#index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">About Us</a></li>
+
+            <li class="dropdown">
+              <a
+                href="#"
+                class="dropdown-toggle"
+                data-toggle="dropdown"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Services <span class="caret"></span
+              ></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Programming</a></li>
+                <li><a href="#">Web Desgin</a></li>
+                <li><a href="#">Web Hosting</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">CEO Page</a></li>
+              </ul>
+            </li>
+
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+    <!-- End Nav Bar -->
+
+    <!-- Start Carousel -->
+    <div id="home"></div>
+    <div id="myslide" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators hidden-xs">
+        <li data-target="#myslide" data-slide-to="0" class="active"></li>
+        <li data-target="#myslide" data-slide-to="1"></li>
+        <li data-target="#myslide" data-slide-to="2"></li>
+        <li data-target="#myslide" data-slide-to="3"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="./images/01.jpg" alt="..." />
+          <div class="carousel-caption hidden-xs">
+            <h2 class="h1">Programming</h2>
+            <p class="lead">
+              Some plugins and CSS components depend on other plugins. If you
+              include plugins individually, make sure to check for these
+              dependencies in the docs. Also note that all plugins depend on
+              jQuery (this means jQuery must be included before the plugin
+              files). Consult our bower.json to see which versions of jQuery are
+              supported.
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./images/02.jpg" alt="..." />
+          <div class="carousel-caption hidden-xs">
+            <h2 class="h1">Web Desgin</h2>
+            <p class="lead">
+              Some plugins and CSS components depend on other plugins. If you
+              include plugins individually, make sure to check for these
+              dependencies in the docs. Also note that all plugins depend on
+              jQuery (this means jQuery must be included before the plugin
+              files). Consult our bower.json to see which versions of jQuery are
+              supported.
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./images/03.jpg" alt="..." />
+          <div class="carousel-caption hidden-xs">
+            <h2 class="h1">Desktop</h2>
+            <p class="lead">
+              Some plugins and CSS components depend on other plugins. If you
+              include plugins individually, make sure to check for these
+              dependencies in the docs. Also note that all plugins depend on
+              jQuery (this means jQuery must be included before the plugin
+              files). Consult our bower.json to see which versions of jQuery are
+              supported.
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="./images/04.jpg" alt="..." />
+          <div class="carousel-caption hidden-xs">
+            <h2 class="h1">Hosting</h2>
+            <p class="lead">
+              Some plugins and CSS components depend on other plugins. If you
+              include plugins individually, make sure to check for these
+              dependencies in the docs. Also note that all plugins depend on
+              jQuery (this means jQuery must be included before the plugin
+              files). Consult our bower.json to see which versions of jQuery are
+              supported.
+            </p>
+          </div>
+        </div>
+        ...
+      </div>
+
+      <!-- Controls -->
+      <a
+        class="left carousel-control"
+        href="#myslide"
+        role="button"
+        data-slide="prev"
+      >
+        <span
+          class="glyphicon glyphicon-chevron-left"
+          aria-hidden="true"
+        ></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="right carousel-control"
+        href="#myslide"
+        role="button"
+        data-slide="next"
+      >
+        <span
+          class="glyphicon glyphicon-chevron-right"
+          aria-hidden="true"
+        ></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!-- End Carousel -->
+
+    <!-- Start about section -->
+
+    <section class="about text-center" id="about">
+      <div class="container">
+        <h1
+          class="wow animate__rollIn"
+          data-wow-duration="1s"
+          data-wow-offset="250"
+        >
+          Meet our new template <span>Bootstrapo Inc.</span>
+        </h1>
+        <p class="lead">
+          Hello, There is our template Bootsrapo Inc. created with all love by
+          Bootstrap V3.3.7
+        </p>
+      </div>
+    </section>
+
+    <!-- End about section -->
+
+    <!-- Start section features -->
+
+    <section class="features text-center" id="features">
+      <div class="container">
+        <h1>Our Features</h1>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <div
+              class="feat hvr-grow wow animate__bounceInLeft"
+              data-wow-duration="1s"
+              data-wow-offset="300"
+            >
+              <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+              <h4>100% Responsive</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+                fuga asperiores assumenda voluptates doloribus adipisci unde
+                ullam eum amet, nobis totam accusamus maiores maxime voluptas,
+                repudiandae corrupti alias deserunt saepe?
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <div
+              class="feat hvr-grow wow animate__bounceInDown"
+              data-wow-duration="1s"
+              data-wow-offset="300"
+            >
+              <span
+                class="glyphicon glyphicon-thumbs-up"
+                aria-hidden="true"
+              ></span>
+              <h4>Desgin</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+                fuga asperiores assumenda voluptates doloribus adipisci unde
+                ullam eum amet, nobis totam accusamus maiores maxime voluptas,
+                repudiandae corrupti alias deserunt saepe?
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <div
+              class="feat hvr-grow wow animate__bounceInUp"
+              data-wow-duration="1s"
+              data-wow-offset="300"
+            >
+              <span
+                class="glyphicon glyphicon-eye-open"
+                aria-hidden="true"
+              ></span>
+              <h4>Awesome Display</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+                fuga asperiores assumenda voluptates doloribus adipisci unde
+                ullam eum amet, nobis totam accusamus maiores maxime voluptas,
+                repudiandae corrupti alias deserunt saepe?
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <div
+              class="feat hvr-grow wow animate__bounceInRight"
+              data-wow-duration="1s"
+              data-wow-offset="300"
+            >
+              <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+              <h4>Well Document</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+                fuga asperiores assumenda voluptates doloribus adipisci unde
+                ullam eum amet, nobis totam accusamus maiores maxime voluptas,
+                repudiandae corrupti alias deserunt saepe?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End section features -->
+
+    <!-- Start testimonials -->
+
+    <section
+      class="testimonials text-center wow animate__flipInY"
+      data-wow-duration="1.3s"
+      data-wow-offset="500"
+      id="testimonials"
+    >
+      <div class="container">
+        <h2>Customer Reviews</h2>
+        <p class="heading">What our customer are saying...</p>
+        <div
+          id="carousel-testimonials"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Incidunt accusamus itaque, harum nam omnis minus deleniti
+                adipisci quod possimus distinctio, nulla iusto dignissimos
+                veritatis, similique molestiae provident inventore perspiciatis
+                deserunt.
+              </p>
+              <span>Muhammad Saeed</span>
+            </div>
+            <div class="item">
+              <p class="lead">
+                Some plugins and CSS components depend on other plugins. If you
+                include plugins individually, make sure to check for these
+                dependencies in the docs. Also note that all plugins depend on
+                jQuery (this means jQuery must be included before the plugin
+                files). Consult our bower.json to see which versions of jQuery
+                are supported.
+              </p>
+              <span>Magdi Yakoob</span>
+            </div>
+            <div class="item">
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis ea ullam magnam recusandae iusto similique veniam
+                cumque praesentium, adipisci nulla qui nam dicta, quod ipsum
+                voluptas exercitationem! Nulla, earum dolore!
+              </p>
+              <span>Abo Trika</span>
+            </div>
+            <div class="item">
+              <p class="lead">
+                Some plugins and CSS components depend on other plugins. If you
+                include plugins individually, make sure to check for these
+                dependencies in the docs. Also note that all plugins depend on
+                jQuery (this means jQuery must be included before the plugin
+                files). Consult our bower.json to see which versions of jQuery
+                are supported.
+              </p>
+              <span>Yakoob Amr Eldeen</span>
+            </div>
+            <div class="item">
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex ab
+                omnis natus. Exercitationem quis vitae amet enim quo, explicabo
+                facere necessitatibus eius, delectus voluptates odit omnis
+                dolores distinctio mollitia vel!
+              </p>
+              <span>Morgan Ahemd Morgan</span>
+            </div>
+          </div>
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carousel-testimonials"
+              data-slide-to="0"
+              class="active"
+            >
+              <img src="./images/avtar1.jpg" alt="Muhammad Saeed" />
+            </li>
+            <li data-target="#carousel-testimonials" data-slide-to="1">
+              <img src="./images/avtar2.jpg" alt="Magdi Yakoob" />
+            </li>
+            <li data-target="#carousel-testimonials" data-slide-to="2">
+              <img src="./images/avtar3.jpg" alt="Abo Trika" />
+            </li>
+            <li data-target="#carousel-testimonials" data-slide-to="3">
+              <img src="./images/avtar4.jpg" alt="Yakoob Amr Eldeen" />
+            </li>
+            <li data-target="#carousel-testimonials" data-slide-to="4">
+              <img src="./images/avtar5.jpg" alt="Morgan Ahemd Morgan" />
+            </li>
+          </ol>
+        </div>
+      </div>
+      <!-- End Carousel -->
+    </section>
+
+    <!-- End testimonials -->
+
+    <!-- start price section -->
+    <section class="price text-center" id="price">
+      <div class="container">
+        <h2>Our Price</h2>
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div
+              class="price-box wow animate__fadeInUp"
+              data-wow-duration="1.5s"
+              data-wow-offset="400"
+            >
+              <h3 class="text-primary">Classic Card</h3>
+              <p class="center-block">$50</p>
+              <ul class="list-unstyled">
+                <li>features one</li>
+                <li>features two</li>
+                <li>features three</li>
+                <li>features four</li>
+                <li>features five</li>
+              </ul>
+              <a href="#" class="btn btn-primary">Subscribe</a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div
+              class="price-box wow animate__fadeInDown"
+              data-wow-duration="1.5s"
+              data-wow-offset="400"
+            >
+              <h3 class="text-success">Premium Card</h3>
+              <p class="center-block">$100</p>
+              <ul class="list-unstyled">
+                <li>features one</li>
+                <li>features two</li>
+                <li>features three</li>
+                <li>features four</li>
+                <li>features five</li>
+              </ul>
+              <a href="#" class="btn btn-success">Subscribe</a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div
+              class="price-box wow animate__fadeInUp"
+              data-wow-duration="1.5s"
+              data-wow-offset="400"
+            >
+              <h3 class="text-info">Super Card</h3>
+              <p class="center-block">$200</p>
+              <ul class="list-unstyled">
+                <li>features one</li>
+                <li>features two</li>
+                <li>features three</li>
+                <li>features four</li>
+                <li>features five</li>
+              </ul>
+              <a href="#" class="btn btn-info">Subscribe</a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div
+              class="price-box wow animate__fadeInDown"
+              data-wow-duration="1.5s"
+              data-wow-offset="400"
+            >
+              <h3 class="text-danger">Unlimited Card</h3>
+              <p class="center-block">$500</p>
+              <ul class="list-unstyled">
+                <li>features one</li>
+                <li>features two</li>
+                <li>features three</li>
+                <li>features four</li>
+                <li>features five</li>
+              </ul>
+              <a href="#" class="btn btn-danger">Subscribe</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End price section -->
+
+    <!-- Start our team section -->
+    <section class="team text-center" id="team">
+      <div class="content">
+        <div class="container">
+          <h2>Meet Our Awesome Team...</h2>
+          <div class="row">
+            <div class="col-lg-3 col-sm-6 col-xs-12">
+              <div
+                class="person wow animate__bounceInDown"
+                data-wow-duration="1s"
+                data-wow-delay=".5s"
+                data-wow-offset="400"
+              >
+                <img
+                  class="img-circle"
+                  src="./images/team1.jpg"
+                  alt="Steve Jobs"
+                />
+                <h3>Steve Jobs</h3>
+                <p>
+                  This is the man who change the world with his Apple products
+                </p>
+                <a href="#" class="hvr-icon-pulse-grow"
+                  ><i class="fa-brands fa-google fa-lg hvr-icon"></i
+                ></a>
+                <a href="#" class="hvr-icon-pulse-grow"
+                  ><i class="fa-brands fa-facebook-f fa-lg hvr-icon"></i
+                ></a>
+                <a href="#" class="hvr-icon-pulse-grow"
+                  ><i class="fa-brands fa-twitter fa-lg hvr-icon"></i
+                ></a>
+                <a href="#" class="hvr-icon-pulse-grow"
+                  ><i class="fa-brands fa-youtube fa-lg hvr-icon"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-12">
+              <div
+                class="person wow animate__bounceInDown"
+                data-wow-duration="1s"
+                data-wow-delay="1s"
+                data-wow-offset="400"
+              >
+                <img
+                  class="img-circle"
+                  src="./images/marissa.jpg"
+                  alt="Marissa Mayar"
+                />
+                <h3>Marissa Mayar</h3>
+                <p>
+                  This is a Marissa Mayar. she have much knowledge in Hacker
+                  System
+                </p>
+                <a href="#" class="hvr-icon-pulse-grow"
+                  ><i class="fa-brands fa-google fa-lg hvr-icon"></i
+                ></a>
+                <a href="#" class="hvr-icon-pulse-grow"
+                  ><i class="fa-brands fa-facebook-f fa-lg hvr-icon"></i
+                ></a>
+                <a href="#" class="hvr-icon-pulse-grow"
+                  ><i class="fa-brands fa-twitter fa-lg hvr-icon"></i
+                ></a>
+                <a href="#" class="hvr-icon-pulse-grow"
+                  ><i class="fa-brands fa-youtube fa-lg hvr-icon"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-12">
+              <div
+                class="person wow animate__bounceInDown"
+                data-wow-duration="1s"
+                data-wow-delay="1.5s"
+                data-wow-offset="400"
+              >
+                <img
+                  class="img-circle"
+                  src="./images/leah.jpg"
+                  alt="Leah Culver"
+                />
+                <h3>Leah Culver</h3>
+                <p>
+                  This is a Leah Culver. she have much knowledge in Hacker
+                  System
+                </p>
+                <a href="#" class="hvr-icon-pulse-grow"
+                  ><i class="fa-brands fa-google fa-lg hvr-icon"></i
+                ></a>
+                <a href="#" class="hvr-icon-pulse-grow"
+                  ><i class="fa-brands fa-facebook-f fa-lg hvr-icon"></i
+                ></a>
+                <a href="#" class="hvr-icon-pulse-grow"
+                  ><i class="fa-brands fa-twitter fa-lg hvr-icon"></i
+                ></a>
+                <a href="#" class="hvr-icon-pulse-grow"
+                  ><i class="fa-brands fa-youtube fa-lg hvr-icon"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-12">
+              <div
+                class="person wow animate__bounceInDown"
+                data-wow-duration="1s"
+                data-wow-delay="2s"
+                data-wow-offset="400"
+              >
+                <img
+                  class="img-circle"
+                  src="./images/chris.jpg"
+                  alt="Chris Coyier"
+                />
+                <h3>Chris Coyier</h3>
+                <p>
+                  This is Chris Coyier The founder of amazing website css.Tricks
+                </p>
+                <a href="#" class="hvr-icon-pulse-grow"
+                  ><i class="fa-brands fa-google fa-lg hvr-icon"></i
+                ></a>
+                <a href="#" class="hvr-icon-pulse-grow"
+                  ><i class="fa-brands fa-facebook-f fa-lg hvr-icon"></i
+                ></a>
+                <a href="#" class="hvr-icon-pulse-grow"
+                  ><i class="fa-brands fa-twitter fa-lg hvr-icon"></i
+                ></a>
+                <a href="#" class="hvr-icon-pulse-grow"
+                  ><i class="fa-brands fa-youtube fa-lg hvr-icon"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end our team section -->
+
+    <!-- Start subscribe section -->
+    <section class="subscribe text-center" id="subscribe">
+      <div
+        class="container wow animate__fadeInUp"
+        data-wow-duration="1s"
+        data-wow-offset="200"
+      >
+        <h2>Keep In Touch</h2>
+        <p class="lead">Sign Up to get our news, Be Ready, Be diffirent</p>
+        <form action="" class="form-inline">
+          <input
+            class="form-control input-lg"
+            type="text"
+            placeholder="Write Your Email"
+          />
+          <button class="btn btn-danger btn-lg">Subscribe</button>
+        </form>
+      </div>
+    </section>
+    <!-- end subscribe section -->
+    <!-- start statistics section -->
+    <div class="statistics text-center" id="statistics">
+      <div class="overlay">
+        <div class="container">
+          <h2>Our Main Statistics</h2>
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <div class="stats">
+                <i class="fa-solid fa-users fa-5x"></i>
+                <p>9,550</p>
+                <span>Sasitsfied Users</span>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="stats">
+                <i class="fa-solid fa-comments fa-5x"></i>
+                <p>25,600</p>
+                <span>Posted Comment</span>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="stats">
+                <i class="fa-solid fa-suitcase fa-5x"></i>
+                <p>3,300</p>
+                <span>Projects Done</span>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="stats">
+                <i class="fa-solid fa-circle-info fa-5x"></i>
+                <p>50,405</p>
+                <span>Tickets Archived</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End statistics section -->
+    <!-- start skills section -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <h2 class="text-center">Our Skills</h2>
+        <div class="row">
+          <div class="col-md-5">
+            <div class="skills-prog">
+              <div class="progress">
+                <div
+                  class="progress-bar progress-bar-success progress-bar-striped active"
+                  role="progressbar"
+                  aria-valuenow="90"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="width: 90%"
+                >
+                  HTML5 / CSS3
+                </div>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar progress-bar-danger progress-bar-striped active"
+                  role="progressbar"
+                  aria-valuenow="45"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="width: 45%"
+                >
+                  PHP / MySQL
+                </div>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar progress-bar-warning progress-bar-striped active"
+                  role="progressbar"
+                  aria-valuenow="70"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="width: 70%"
+                >
+                  JavaScript / React
+                </div>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar progress-bar-info progress-bar-striped active"
+                  role="progressbar"
+                  aria-valuenow="60"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="width: 60%"
+                >
+                  WordPress
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-md-offset-1">
+            <div class="info">
+              <h3>About The Team</h3>
+              <p class="lead">
+                We Are Specialised Desging And Programming Team Passionate About
+                Web Desgin And Creating Digital Ideas. We Will Transfer Your
+                Idea To A Digital Dream And Make Your Wish Come True
+              </p>
+              <button type="button" class="btn btn-primary">
+                Talk With A Professional
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end skills section -->
+    <!-- Start contact us -->
+    <section class="contact text-center" id="contact">
+      <div class="overlay">
+        <div class="container">
+          <div class="row">
+            <i class="fa-solid fa-headphones-simple fa-5x"></i>
+            <h2>Contact Us</h2>
+            <p class="lead">Tell Us What We Can Help You...</p>
+            <form role="form">
+              <div
+                class="col-md-6 wow animate__bounceInLeft"
+                data-wow-duration="1s"
+                data-wow-offset="300"
+              >
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control input-lg"
+                    placeholder="Username"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control input-lg"
+                    placeholder="Email"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control input-lg"
+                    placeholder="Phone"
+                  />
+                </div>
+              </div>
+              <div
+                class="col-md-6 wow animate__bounceInRight"
+                data-wow-duration="1s"
+                data-wow-offset="300"
+              >
+                <div class="form-group">
+                  <textarea
+                    class="form-control input-lg"
+                    placeholder="Your Message..."
+                  ></textarea>
+                </div>
+                <button type="button" class="btn btn-danger btn-lg btn-block">
+                  Contact Us
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end contact us -->
+
+    <!-- Start clint section -->
+    <section class="client text-center" id="client">
+      <div class="container">
+        <div class="row">
+          <ul class="list-unstyled">
+            <li class="col-md-2 col-xs-4">
+              <img
+                class="img-responsive center-block wow animate__backInLeft"
+                data-wow-duration="2s"
+                data-wow-offset="300"
+                data-wow-delay=".0s"
+                src="./images/clients/bbc.png"
+                alt="BBC"
+              />
+            </li>
+            <li class="col-md-2 col-xs-4">
+              <img
+                class="img-responsive center-block wow animate__backInLeft"
+                data-wow-duration="2s"
+                data-wow-offset="300"
+                data-wow-delay=".1s"
+                src="./images/clients/cnn.png"
+                alt="CNN"
+              />
+            </li>
+            <li class="col-md-2 col-xs-4">
+              <img
+                class="img-responsive center-block wow animate__backInLeft"
+                data-wow-duration="2s"
+                data-wow-offset="300"
+                data-wow-delay=".2s"
+                src="./images/clients/forbes.png"
+                alt="FORBES"
+              />
+            </li>
+            <li class="col-md-2 col-xs-4">
+              <img
+                class="img-responsive center-block wow animate__backInLeft"
+                data-wow-duration="2s"
+                data-wow-offset="300"
+                data-wow-delay=".3s"
+                src="./images/clients/techradar.png"
+                alt="TECHRADAR"
+              />
+            </li>
+            <li class="col-md-2 col-xs-4">
+              <img
+                class="img-responsive center-block wow animate__backInLeft"
+                data-wow-duration="2s"
+                data-wow-offset="300"
+                data-wow-delay=".4s"
+                src="./images/clients/wired.png"
+                alt="WIRWD"
+              />
+            </li>
+            <li class="col-md-2 col-xs-4">
+              <img
+                class="img-responsive center-block wow animate__backInLeft"
+                data-wow-duration="2s"
+                data-wow-offset="300"
+                data-wow-delay=".5s"
+                src="./images/clients/wsj.png"
+                alt="WSJ"
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- end clint section -->
+    <!-- start footer section -->
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <h3>Site Map</h3>
+            <ul class="list-unstyled three-column">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#testimonials">Reviews</a></li>
+              <li><a href="#price">Price</a></li>
+              <li><a href="#team">Our Team</a></li>
+              <li><a href="#statistics">Statistics</a></li>
+              <li><a href="#skills">skills</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+            </ul>
+            <ul class="list-unstyled social-list">
+              <li>
+                <img src="./images/social-bookmark/email.png" alt="Email" />
+              </li>
+              <li>
+                <img src="./images/social-bookmark/gplus.png" alt="Google" />
+              </li>
+              <li>
+                <img
+                  src="./images/social-bookmark/facebook.png"
+                  alt="Facebook"
+                />
+              </li>
+              <li>
+                <img src="./images/social-bookmark/twitter.png" alt="Twitter" />
+              </li>
+              <li>
+                <img
+                  src="./images/social-bookmark/pinterest.png"
+                  alt="Pinterest"
+                />
+              </li>
+              <li><img src="./images/social-bookmark/rss.png" alt="Rss" /></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <h3>Latest Articles</h3>
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img
+                    class="media-object"
+                    src="./images/article/01.jpg"
+                    alt="Image 01"
+                  />
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Programming</h4>
+                This is some text about programming to describe the media of
+                bootstrap 3.2.1 .
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img
+                    class="media-object"
+                    src="./images/article/02.jpg"
+                    alt="Image 02"
+                  />
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">CSS</h4>
+                This is some text about CSS to describe the SASS.
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img
+                    class="media-object"
+                    src="./images/article/03.jpg"
+                    alt="Image 03"
+                  />
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">JavaScript</h4>
+                This is some text about programming to describe the Object of
+                JavaScript .
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <h3>Our Awesome Work</h3>
+            <img
+              class="img-thumbnail"
+              src="./images/work/01.jpg"
+              alt="Image 01"
+            />
+            <img
+              class="img-thumbnail"
+              src="./images/work/02.jpg"
+              alt="Image 02"
+            />
+            <img
+              class="img-thumbnail"
+              src="./images/work/03.jpg"
+              alt="Image 03"
+            />
+            <img
+              class="img-thumbnail"
+              src="./images/work/04.jpg"
+              alt="Image 04"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="copy-right text-center">
+        Copyright &copy;2023 <span>Bootsrapo <sub>Inc.</sub></span>
+      </div>
+    </section>
+    <!-- end footer section -->
+
+    <!-- start section loading -->
+    <section class="loading">
+      <div class="spinner"></div>
+    </section>
+    <!-- end section loading -->
+
+    <!-- start scroll to top -->
+    <span class="up"><i class="fa-solid fa-chevron-up"></i></span>
+    <!-- end scroll to top -->
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/jquery.nicescroll.min.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </body>
+</html>

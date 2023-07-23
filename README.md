@@ -16,7 +16,7 @@ The template features a clean and uncluttered design with a focus on user experi
 </ul>
 </p>
 
-👉 Live Demo: <a href='bootstrap-elsa33eed.vercel.app/' target="_blank">Live Demo</a>
+👉 Live Demo: <a href='bootstrap-elsa33eed.vercel.app/'>Live Demo</a>
 
 <h3>Build with:</h3>
 
